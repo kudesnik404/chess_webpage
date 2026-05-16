@@ -1,0 +1,19 @@
+.button-main {
+    background-color: var(--color-black);
+    color: var(--color-text-light);
+}
+
+.button-main:hover {
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    border-color: var(--color-accent);
+}
+
+.button-secondary {
+    color: var(--color-black);
+}
+
+.button-secondary:hover {
+    background-color: var(--color-black);
+    color: var(--color-text-light);
+}
