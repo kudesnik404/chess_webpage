@@ -8,13 +8,13 @@
 ---
 
 ## Deploy
-[https://example.com](https://kudesnik404.github.io/chess_webpage/)
+https://kudesnik404.github.io/chess_webpage/
 
 ## Макет
-[https://figma.com/...](https://disk.yandex.ru/d/xYAclHtuJVlChg)
+https://disk.yandex.ru/d/xYAclHtuJVlChg
 
 ## Репозиторий:
-[https://github.com/username/project-name](https://github.com/kudesnik404/chess_webpage)
+https://github.com/kudesnik404/chess_webpage
 
 ## Стек технологий
 
