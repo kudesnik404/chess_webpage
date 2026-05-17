@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('general/reset.css');
+@import url('general/variables.css');
+@import url('general/containers.css');
+@import url('general/texts.css');
+@import url('general/buttons.css');
+
+@import url('sections/section_title-card.css');
+@import url('sections/section_tournament.css');
+@import url('sections/section_tournament__art.css');
+@import url('sections/section_steps.css');
+@import url('sections/section_participants.css');
+
+@import url('sections/marquee.css');
+@import url('sections/footer.css');

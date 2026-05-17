@@ -1,0 +1,123 @@
+.steps {
+    margin-top: 136px;
+    padding-top: 64px;
+    position: relative;
+}
+
+.steps__title {
+    position: relative;
+    margin-bottom: 54px;
+    max-width: 800px;
+}
+
+.steps__title p {
+    color: var(--color-blue);
+    display: inline-block;
+    max-width: 280px;
+    margin-left: 18px;
+}
+
+.steps__timeline {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    counter-reset: item;
+}
+
+.steps__timeline__item {
+    background-color: var(--color-background);
+    position: relative;
+    padding: 20px;
+    counter-increment: item;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 16px;
+    font-weight: 500;
+}
+
+.steps__timeline__item::before {
+    content: counter(item);
+
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-text-light);
+    border-radius: 50%;
+
+    font-weight: 600;
+}
+
+.steps__timeline__item::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+
+    background-image: url(/src/images/paper-texture.png);
+    background-size: cover;
+    background-position: center;
+
+    mix-blend-mode: color-burn;
+
+    pointer-events: none;
+}
+
+.steps__timeline__item:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.steps__timeline__item:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.steps__timeline__item:nth-child(3) {
+    grid-area: 1 / 3 / 3 / 4;
+}
+
+.steps__timeline__item:nth-child(4) {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.steps__timeline__item:nth-child(5) {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.steps__timeline__item:nth-child(6) {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.steps__timeline__item:nth-child(7) {
+    grid-area: 3 / 2 / 4 / 4;
+    padding-right: 290px
+}
+
+.steps__plane {
+    position: absolute;
+    bottom: -2px;
+    right: 8px;
+    animation: fly 3s steps(2) infinite;
+}
+
+.steps__plane:hover {
+    animation: none;
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(20px, 10px) rotate(20deg);
+    }
+
+    100% {
+        transform: translate(-10px, -10px) rotate(10deg);
+    }
+}

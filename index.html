@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Турнир</title>
+</head>
+<body>
+<section class="title-card">
+    <div class="title-card__background">
+        <img class="title-card__background__sun" src="./src/images/title-card/title-card__sun.svg" alt="">
+        <img class="title-card__background__texture" src="./src/images/paper-texture.png" alt="">
+        <img class="title-card__background__foreground" src="./src/images/title-card/title-card__foreground.png" alt="">
+    </div>
+
+    <div class="container">
+        <div class="title-card__container">
+            <a href="#" class="title-card__logo">
+                <img src="./src/images/logo.svg" alt="Логотип">
+            </a>
+
+            <h1 class="title-card__title">
+                    <span class="title-card__title__block">
+                        Превратите
+                        уездный город
+                    </span>
+                <span class="title-card__title__block">
+                        в столицу
+                    </span>
+                <span class="title-card__title__block">
+                        земного шара
+                    </span>
+            </h1>
+            <p class="title-card__description text-S">
+                Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
+            </p>
+            <nav class="title-card__buttons">
+                <a href="#steps" class="title-card__button button-main text-S">Поддержать шахматную мысль</a>
+                <a href="#tournament-info" class="title-card__button button-secondary text-S">Подробнее о турнире</a>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="marquee-id"></section>
+
+<section class="tournament container">
+    <div class="tournament__container-1">
+        <div class="text-L text-reveal">
+            Чтобы поддержать
+            <h3>Международный васюкинский турнир</h3> посетите лекцию на тему: <span class="tournament__text-accent">
+                                «Плодотворная дебютная идея»
+                            </span>
+        </div>
+        <img src="./src/images/oval-photo-playing-chess.png" alt="Фото">
+    </div>
+
+    <div class="tournament__container-2" id="tournament-info">
+        <div class="tournament__art">
+            <div class="tournament__art__composite">
+            </div>
+            <img class="tournament__art__hand" src="src/images/playing-chess/playing-chess__hand.png" alt="">
+        </div>
+
+        <p class="tournament__info text-L text-reveal">
+            и Сеанс <span class="tournament__text-accent">одновременной игры в шахматы на 160 досках</span>
+            гроссмейстера О. Бендера
+        </p>
+
+        <dl class="tournament__table text-M">
+            <dt>Место проведения:</dt>
+            <dd>Клуб «Картонажник»</dd>
+
+            <dt>Дата и время мероприятия:</dt>
+            <dd>22 июня 1927 г. в 18:00</dd>
+
+            <dt>Стоимость входных билетов:</dt>
+            <dd>20 коп.</dd>
+
+            <dt>Плата за игру:</dt>
+            <dd>50 коп.</dd>
+
+            <dt>Взнос на телеграммы:</dt>
+            <dd><span class="text-crossed-out">100 руб.</span>21 руб. 16 коп.
+            </dd>
+        </dl>
+
+        <p class="tournament__additional text-M">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+    </div>
+</section>
+
+<section class="steps container" id="steps">
+    <div class="steps__title">
+        <h2 class="title_M">
+            Этапы преображения Васюков
+        </h2>
+        <p class="text-M">Будущие источники обогащения васюкинцев</p>
+    </div>
+
+    <ol class="steps__timeline text-M">
+        <li class="steps__timeline__item">
+            <p>Строительство железнодорожной магистрали Москва-Васюки</p>
+        </li>
+        <li class="steps__timeline__item">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</li>
+        <li class="steps__timeline__item">Поднятие сельского хозяйства в радиусе на тысячу километров: производство
+            овощей, фруктов, икры, шоколадных конфет
+        </li>
+        <li class="steps__timeline__item">Строительство дворца для турнира</li>
+        <li class="steps__timeline__item">Размещение гаражей для гостевого автотранспорта</li>
+        <li class="steps__timeline__item">Постройка сверхмощной радиостанции для передачи всему миру сенсационных
+            результатов
+        </li>
+        <li class="steps__timeline__item">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых
+            самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн
+        </li>
+    </ol>
+
+    <img src="./src/images/plane.png" alt="самолёт" class="steps__plane">
+</section>
+
+<section class="participants container">
+    <div class="participants__wrapper">
+        <h2 class="title_M">
+            Участники турнира
+        </h2>
+
+        <div class="participants__slider-buttons">
+            <button class="carousel-button-prev">
+            </button>
+            <div class="participants__slider__page-indicator text-XS"></div>
+            <button class="carousel-button-next">
+            </button>
+        </div>
+
+        <ul class="participants__list">
+        </ul>
+    </div>
+
+</section>
+
+<section class="marquee-id"></section>
+
+<footer class="footer">
+    <div class="container">
+        <p class="footer__text text-XS">
+            Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями
+            можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+        </p>
+    </div>
+</footer>
+<script type="module" src="./src/scripts/main.js"></script>
+<script type="module" src="./src/scripts/participants.js"></script>
+</body>
+</html>

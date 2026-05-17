@@ -1,0 +1,49 @@
+.button-main {
+    background-color: var(--color-black);
+    color: var(--color-text-light);
+    transition: var(--button-transition);
+}
+
+.button-main:hover {
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    border-color: var(--color-accent);
+}
+
+.button-secondary {
+    color: var(--color-black);
+    transition: var(--button-transition);
+}
+
+.button-secondary:hover {
+    background-color: var(--color-black);
+    color: var(--color-text-light);
+}
+
+.carousel-button-prev, .carousel-button-next {
+    width: 44px;
+    height: 44px;
+    background-color: var(--color-text);
+    background-image: url("../../images/arrow.svg");
+    background-size: 26%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: var(--button-transition);
+}
+
+.carousel-button-prev:hover, .carousel-button-next:hover {
+    background-color: var(--color-accent);
+}
+
+.carousel-button-prev:disabled, .carousel-button-next:disabled {
+    background-color: var(--color-grey);
+}
+
+.carousel-button-next {
+    background-position: right 16px center;
+}
+
+.carousel-button-prev {
+    rotate: 180deg;
+    background-position: left 16px center;
+}

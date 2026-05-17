@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --color-background: #E9DED4;
+    --color-text: #313131;
+    --color-text-light: #FFFFFF;
+    --color-subtext: #E9DED4;
+    --color-accent: #FBCE51;
+    --color-important: #F54932;
+    --color-black: #1F1F2F;
+    --color-grey: #D0D0D0;
+    --color-blue: #3057A2;
+
+    /* Typography */
+    --font-main: 'Merriweather';
+    --font-seconary: 'Golos Text';
+
+    /* Container */
+    --container-width: 1366px;
+
+    /* z-index */
+    --z-index-background: 10;
+    --z-index-container: 20;
+
+    /* Animation */
+    --button-transition: all 0.2s ease-out;
+}
