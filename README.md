@@ -14,7 +14,7 @@
 [https://figma.com/...](https://disk.yandex.ru/d/xYAclHtuJVlChg)
 
 ## Репозиторий:
-- [https://github.com/username/project-name](https://github.com/kudesnik404/chess_webpage)
+[https://github.com/username/project-name](https://github.com/kudesnik404/chess_webpage)
 
 ## Стек технологий
 
