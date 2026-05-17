@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 64px;
-    margin: 80px 0 64px 0;
+    margin-top: 80px;
 }
 
 .tournament__container-2 {
@@ -11,6 +11,7 @@
     grid-template-columns: 1fr auto;
     grid-template-rows: repeat(4, auto);
     grid-column-gap: 44px;
+    padding-top: 64px;
 }
 
 /* Info */
