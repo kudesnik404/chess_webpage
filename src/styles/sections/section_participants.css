@@ -46,6 +46,10 @@
     max-width: 320px;
 }
 
+.participants__list__item__avatar {
+  height: fit-content;
+}
+
 .participants__list__item__avatar--no-photo {
     background-image: url("../../images/participants/participant.svg"), url("../../images/participants/participant__background.png");
     background-size: 90%,
@@ -56,6 +60,7 @@
 
     background-repeat: no-repeat,
     no-repeat;
+    height: auto;
 }
 
 .participants__list__item__name {
@@ -77,6 +82,7 @@
     border: 1px solid var(--color-blue);
     border-radius: 99999px;
     transition: var(--button-transition);
+    height: fit-content;
 }
 
 .participants__list__item__link:hover {
