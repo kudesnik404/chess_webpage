@@ -9,12 +9,6 @@
     max-width: 800px;
 }
 
-.steps__title h2 {
-    font-size: 54px;
-    line-height: 1.2;
-    text-transform: uppercase;
-}
-
 .steps__title p {
     color: var(--color-blue);
     display: inline-block;

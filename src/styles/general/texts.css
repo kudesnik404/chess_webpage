@@ -22,6 +22,12 @@
     text-transform: uppercase;
 }
 
+.title_M {
+    font-size: 54px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
 .text-crossed-out {
     text-decoration: line-through var(--color-important);
     margin-right: 12px;

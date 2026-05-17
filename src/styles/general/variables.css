@@ -20,4 +20,7 @@
     /* z-index */
     --z-index-background: 10;
     --z-index-container: 20;
+
+    /* Animation */
+    --button-transition: all 0.2s ease-out;
 }
