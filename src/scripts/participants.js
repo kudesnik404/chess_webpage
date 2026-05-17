@@ -2,7 +2,7 @@ const participants = [
     {
         name: "Хозе-Рауль Капабланка",
         title: "Чемпион мира по шахматам",
-        photo: "../src/images/participants/participants__item-1.png",
+        photo: "src/images/participants/participants__item-1.png",
         link: "#",
     },
     {
@@ -20,7 +20,7 @@ const participants = [
     {
         name: "Арон Нимцович",
         title: "Чемпион мира по шахматам",
-        photo: "../src/images/participants/participants__item-1.png",
+        photo: "src/images/participants/participants__item-1.png",
         link: "#",
     },
     {
@@ -32,7 +32,7 @@ const participants = [
     {
         name: "Остап Бендер",
         title: "Гроссмейстер",
-        photo: "../src/images/participants/participants__item-1.png",
+        photo: "src/images/participants/participants__item-1.png",
         link: "#",
     },
     {
@@ -44,7 +44,7 @@ const participants = [
     {
         name: "Арон Нимцович",
         title: "Чемпион мира по шахматам",
-        photo: "../src/images/participants/participants__item-1.png",
+        photo: "src/images/participants/participants__item-1.png",
         link: "#",
     },
     {

@@ -17,7 +17,7 @@
     top: -28px;
     isolation: isolate;
 
-    background-image: url(/src/images/playing-chess/playing-chess__main.png);
+    background-image: url(../../images/playing-chess/playing-chess__main.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,12 +35,12 @@
 
     mix-blend-mode: color-burn;
 
-    -webkit-mask-image: url(/src/images/playing-chess/playing-chess__main.png);
+    -webkit-mask-image: url(../../images/playing-chess/playing-chess__main.png);
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
 
-    mask-image: url(/src/images/playing-chess/playing-chess__main.png);
+    mask-image: url(../../images/playing-chess/playing-chess__main.png);
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
